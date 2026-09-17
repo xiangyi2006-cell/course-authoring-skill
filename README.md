@@ -1,7 +1,7 @@
 # Course Authoring Skill 技术课程撰写技能
 
-> 一个可复用的课程撰写方法论与工具集，沉淀自一次完整的知识库模块课程开发实践（14 讲 + 13 图 + 溯源台账）。
-> 适用于 Claude Code / ZCode 等 AI 编程助手，也可作为人类课程作者的独立参考。
+> 一个可复用的课程撰写方法论与工具集，沉淀自一次完整的课程开发实践。
+> 适用于 Claude Code / Cursor 等 AI 编程助手，也可作为人类课程作者的独立参考。
 
 ## 解决什么问题
 
@@ -21,7 +21,7 @@
 
 ### 在 Claude Code / ZCode 中使用
 
-1. 将 `SKILL.md` 复制到你的项目的 `.claude/skills/` 或 `.zcode/skills/` 目录
+1. 将 `SKILL.md` 复制到你的项目的 `.claude/skills/` 目录
 2. 对 AI 说："帮我设计一门 XX 课程" 或 "写第 N 讲"
 3. AI 将按照 SKILL.md 中的方法论执行
 
@@ -59,13 +59,6 @@ course-authoring-skill/
 4. **拆解式讲解**：一次只推进一小步，每个机制配走查
 5. **实战可运行**：代码完整可抄，每步标注成功长什么样
 6. **诚实局限**：每个方案讲完给"什么时候不该用"
-
-## 实践案例
-
-本技能沉淀自以下课程模块的完整开发过程：
-
-- **知识库与检索**（14 讲）：RAG / Elasticsearch / 混合检索 / Coding Search / LLM Wiki / GraphRAG / Ontology / 最小 RAG 实战 / 检索评估
-- 实际产出：14 篇讲义 + 13 张 matplotlib 配图 + 来源台账 + 互链网络
 
 ## License
 
